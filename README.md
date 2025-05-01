@@ -17,7 +17,7 @@ enabling authorized-only training for unlearnable data. This restoration process
 ## Start Running Replicating-UnlearnablePC
 - **Get code**
 ```shell 
-git clone https://github.com/CGCL-codes/Replicating-UnlearnablePC.git
+git clone https://github.com/CGCL-codes/](https://github.com/ArtiomNosov/Replicating-UnlearnablePC.git
 ```
 
 - **Build environment**
