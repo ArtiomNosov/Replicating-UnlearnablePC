@@ -1,5 +1,5 @@
-# UnlearnablePC
-The official implementation of our NeurIPS 2024 paper "*[Unlearnable 3D Point Clouds: Class-wise Transformation Is All You Need](https://arxiv.org/pdf/2410.03644)*", by *[Xianlong Wang](https://wxldragon.github.io/), [Minghui Li](http://trustai.cse.hust.edu.cn/index.htm), [Wei Liu](https://wilmido.github.io/), [Hangtao Zhang](https://scholar.google.com.hk/citations?user=H6wMyNEAAAAJ&hl=zh-CN), [Shengshan Hu](http://trustai.cse.hust.edu.cn/index.htm), [Yechao Zhang](https://scholar.google.com.hk/citations?user=6DN1wxkAAAAJ&hl=zh-CN&oi=ao), [Ziqi Zhou](https://zhou-zi7.github.io/), and [Hai Jin](https://scholar.google.com.hk/citations?user=o02W0aEAAAAJ&hl=zh-CN&oi=ao).*
+# Replicating UnlearnablePC
+Replicating of the official implementation of NeurIPS 2024 paper "*[Unlearnable 3D Point Clouds: Class-wise Transformation Is All You Need](https://arxiv.org/pdf/2410.03644)*", by *[Xianlong Wang](https://wxldragon.github.io/), [Minghui Li](http://trustai.cse.hust.edu.cn/index.htm), [Wei Liu](https://wilmido.github.io/), [Hangtao Zhang](https://scholar.google.com.hk/citations?user=H6wMyNEAAAAJ&hl=zh-CN), [Shengshan Hu](http://trustai.cse.hust.edu.cn/index.htm), [Yechao Zhang](https://scholar.google.com.hk/citations?user=6DN1wxkAAAAJ&hl=zh-CN&oi=ao), [Ziqi Zhou](https://zhou-zi7.github.io/), and [Hai Jin](https://scholar.google.com.hk/citations?user=o02W0aEAAAAJ&hl=zh-CN&oi=ao).*
 
 ![NeurIPS 2024](https://img.shields.io/badge/NeurIPS-2024-blue.svg?style=plastic) 
 ![Unlearnable Examples](https://img.shields.io/badge/Unlearnable-Examples-yellow.svg?style=plastic)
@@ -14,31 +14,23 @@ enabling authorized-only training for unlearnable data. This restoration process
   <img src="unlearnablepc.png" width="700"/>
 </p>
 
-
-## Latest Update
-| Date       | Event    |
-|------------|----------|
-| **2024/10/21** | We have released the official implementation of UnlearnablePC!  |
-| **2024/10/07** | The paper (arXiv version) is available at [UnlearnablePC](https://arxiv.org/pdf/2410.03644)!|
-| **2024/09/26** | UnlearnablePC is acccepted by NeurIPS 2024!  |
-
-## Start Running UnlearnablePC
+## Start Running Replicating-UnlearnablePC
 - **Get code**
 ```shell 
-git clone https://github.com/CGCL-codes/UnlearnablePC.git
+git clone https://github.com/CGCL-codes/Replicating-UnlearnablePC.git
 ```
 
 - **Build environment**
 ```shell
-cd UnlearnablePC
-conda create -n UnlearnablePC python=3.9
-conda activate UnlearnablePC
+cd Replicating-UnlearnablePC
+conda create -n Replicating-UnlearnablePC python=3.9
+conda activate Replicating-UnlearnablePC
 pip install -r requirements.txt
 ```
 
 - **Download datasets**
   - Please download ModelNet dataset at: [[ModelNet](https://www.kaggle.com/datasets/chenxaoyu/modelnet-normal-resampled)], ShapeNetPart dataset at: [[ShapeNetPart](https://www.kaggle.com/datasets/mitkir/shapenet)], ScanObjectNN dataset at: [[ScanObjectNN](https://hkust-vgd.github.io/scanobjectnn/)], S3DIS dataset at: [[S3DIS](http://buildingparser.stanford.edu/dataset.html)] (for semantic segmentation task)
-  - Unzip the datasets.zip files in ```UnlearnablePC/clean_data```
+  - Unzip the datasets.zip files in ```Replicating-UnlearnablePC/clean_data```
 
 
 - **Produce unlearnable 3D point cloud datasets**
