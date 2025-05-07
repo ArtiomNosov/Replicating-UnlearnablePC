@@ -1,4 +1,4 @@
-# Replicating UnlearnablePC
+# Replicating UnlearnablePC [official implementation of NeurIPS 2024](https://github.com/CGCL-codes/UnlearnablePC)
 Replicating of the official implementation of NeurIPS 2024 paper "*[Unlearnable 3D Point Clouds: Class-wise Transformation Is All You Need](https://arxiv.org/pdf/2410.03644)*", by *[Xianlong Wang](https://wxldragon.github.io/), [Minghui Li](http://trustai.cse.hust.edu.cn/index.htm), [Wei Liu](https://wilmido.github.io/), [Hangtao Zhang](https://scholar.google.com.hk/citations?user=H6wMyNEAAAAJ&hl=zh-CN), [Shengshan Hu](http://trustai.cse.hust.edu.cn/index.htm), [Yechao Zhang](https://scholar.google.com.hk/citations?user=6DN1wxkAAAAJ&hl=zh-CN&oi=ao), [Ziqi Zhou](https://zhou-zi7.github.io/), and [Hai Jin](https://scholar.google.com.hk/citations?user=o02W0aEAAAAJ&hl=zh-CN&oi=ao).*
 
 ![NeurIPS 2024](https://img.shields.io/badge/NeurIPS-2024-blue.svg?style=plastic) 
